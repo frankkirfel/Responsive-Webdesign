@@ -3,11 +3,73 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Responsive Webdesign</title>
+	<title>Responsive Webdesign Beispiel 2.1</title>
 </head>
 
 <body>
+	<div class="page-wrapper">
+		<header class="header arrow-down" role="banner">
+			<div class="logo"><a title="Zur Index-Seite aller Beispiele" href="../../index.html">Website-Title</a></div>
+		</header>
+		<nav id="nav" class="nav arrow-down">
+			<ul id="navMain" class="main-nav">
+				<li><a href="../../index.html" title="Zur Index-Seite aller Beispiele">Startseite</a></li>
+					<li><a href="https://rwd-praxis.de" target="_blank" title="Öffnet Website zum Buch in einem neuen Fenster">Buch</a></li>
+					<li class="main-nav__item-act"><b>Beispiel</b></li>
+					<li><a href="#" title="Dummy-Link">Linkliste</a></li>
+					<li><a href="#" title="Dummy-Link">Über Uns</a></li>
+					<li><a href="#" title="Dummy-Link">Impressum</a></li>
+			</ul>
+		</nav>
+		<div class="main-wrapper">
+			<main class="main-content" role="main">
+				<h1>Schnelleinstieg: Umsetzung fixes Design (Schritt&nbsp;1)</h1>
+				<p class="teasertext">Dieses Beispiel demonstriert die Erstellung eines sich anpassbaren Layouts.<br> Dafür werden im <a href="../bsp_02-02">Schritt&nbsp;2</a> die fixen Dimensionen (Pixelangaben) eines Layouts in flexible Größenangaben umgerechnet und erste einfache Layout-Anpassungen für unterschiedliche Screengrößen vorgenommen.</p>
 
+				<section class="section teaser-articles">
+					<article class="teaser-box">
+						<img src="img/dummy-400x300-Seagull-plain.jpg" alt="Dummy-Bild">
+						<div class="box-inner">
+							<h2>Teaser Überschrift</h2>
+							<p>Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental.</p>
+						<div>
+					</article>
+
+					<article class="teaser-box">
+						<img src="img/dummy-400x300-Bird-plain.jpg" alt="Dummy-Bild">
+						<div class="box-inner">
+							<h2>Teaser Überschrift</h2>
+							<p>Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental.</p>
+						</div>
+					</article>
+
+					<article class="teaser-box">
+						<img src="img/dummy-400x300-SeagullLanding-plain.jpg" alt="Dummy-Bild">
+						<div class="box-inner">
+							<h2>Teaser Überschrift</h2>
+							<p>Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental.</p>
+						</div>
+					</article>
+				</section>
+				
+				<section class="section section-1">
+					<h2>1. Abschnitts Überschrift</h2>
+					<p>Li nov lingua franca va esser plu simplic e <span class="highlight">* regulari quam li existent Europan *</span> lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.</p>
+				</section>
+			</main>
+			
+			<aside class="aside" role="complementary">
+				<h2>Marginalie</h2>
+				<p>Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.</p>
+				<p>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.</p>
+				<h3>Abschnitts Überschrift</h3>
+				<p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.</p>
+			</aside>
+		</div>
+		<footer class="footer" role="contentinfo">
+			<p class="copy">Responsive Webdesign - erschienen im <a href="https://www.rheinwerk-verlag.de/responsive-webdesign_4395/" target="_blank" title="Öffnet www.rheinwerk-verlag.de in einem neuen Fenster">Rheinwerk Verlag</a> &copy;&nbsp;2013&nbsp;-&nbsp;2017</p>
+		</footer>
+	</div>
 </body>
 
 </html>
