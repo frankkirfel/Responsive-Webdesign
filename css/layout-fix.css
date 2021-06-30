@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+
+.page-wrapper {
+	margin: 0 auto;
+	width: 1240px;
+}
+
+.header {
+	padding: 1.5em 24px;
+}
+
+.main-nav {
+	width: 213px;
+	float: left;
+}
+
+.main-wrapper {
+	width: 1027px;
+	margin-left: 213px;
+}
+
+.main-content {
+	float: left;
+	width: 735px;
+	padding: 2em 24px;
+}
+
+.footer {
+	padding: 0.8em 24px;
+}
