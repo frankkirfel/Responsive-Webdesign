@@ -13,29 +13,99 @@ html {
 
 .page-wrapper {
 	margin: 0 auto;
-	width: 1240px;
+	max-width: 1400px;
 }
 
 .header {
-	padding: 1.5em 24px;
+	padding: 1.5em 1.935483871%;
 }
 
 .main-nav {
-	width: 213px;
+	width: 17.177419355%;
 	float: left;
 }
 
 .main-wrapper {
-	width: 1027px;
-	margin-left: 213px;
+	width: 82.822580645%;
+	margin-left: 17.177419355%;
 }
 
 .main-content {
 	float: left;
-	width: 735px;
-	padding: 2em 24px;
+	width: 71.567672833%;
+	padding: 2em 2.336903603%;
+}
+
+.aside {
+	width: 28.432327167%;
+	margin-left: 71.567672833%;
+	padding: 2em 2.336903603%;
 }
 
 .footer {
-	padding: 0.8em 24px;
+	padding: 0.8em 1.935483871%;
+}
+
+
+.teaser-box {
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.teaser-box h2 {
+	margin: 0;
+	font-size: 20px;
+}
+
+.box-inner {
+	padding: 1em;
+}
+
+h1 {
+	margin: 0.5em 0 0 0;
+}
+
+@media screen and (max-width: 999px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	
+	.teaser-box {
+		overflow: auto;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	
+	.teaser-box img {
+		width: 45%;
+		float: left;
+		margin: 1em;
+	}
+	
+	.box-inner {
+		line-height: 1.3;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.section.teaser_articles {
+		display: flex;
+	}
+	
+	.teaser-box {
+		flex: 1 33.333333333%;
+		margin: 0 2.336903603% 2em 0;
+	}
+	
+	.teaser-box:nth-of-type(3n+3) {
+		margin-right: 0;
+	}
+	
+	.teaser-box p:last-of-type {
+		margin-bottom: 0;
+	}
+	
+	.teaser-box img {
+		width: 100%;
+	}
 }
