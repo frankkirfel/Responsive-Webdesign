@@ -88,7 +88,7 @@ h1 {
 }
 
 @media screen and (min-width: 1000px) {
-	.section.teaser_articles {
+	.section.teaser-articles {
 		display: flex;
 	}
 	
